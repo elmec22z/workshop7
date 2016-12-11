@@ -5,21 +5,25 @@
   "properties": {
     "userId": {
       "id": "userId",
-      "type": "integer"
+      "type": "string"
     },
+
     "location": {
       "id": "location",
       "type": "string"
     },
+
     "contents": {
       "id": "contents",
       "type": "string"
     },
+
     "image": {
       "id": "image",
       "type": ["string", "null"]
     }
   },
+  
   "additionalProperties": false,
   "required": [
     "userId",
